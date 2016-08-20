@@ -1,7 +1,6 @@
 body {
     background-image: url("../images/finalFantasy.jpg");
     background-size: 100% 100%;
-    background-repeat: no-repeat;
 }
 
 header {
@@ -22,14 +21,14 @@ h5 {
 }
 
 .gameName {
-    color: white;
+    color: purple;
     text-align: center;
     padding-top: 0px;
 }
 
 .paragraph {
     width: 350px;
-    height: 370px;
+    height: 235px;
     background-color: #EBD0B9;
     margin: 0 0 10px 400px;
 }
@@ -82,7 +81,7 @@ h5 {
     height: 90px;
     background-color: #EBD0B9;
     font-size: 30px;
-    color: white;
+    color: purple;
     margin: 0 0 0 480px;
 }
 
