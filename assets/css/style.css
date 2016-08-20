@@ -1,0 +1,94 @@
+body {
+    background-image: url("../images/finalFantasy.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header {
+    width: 350px;
+    height: 70px;
+    background-color: #EBD0B9;
+    margin: 0 0 10px 400px;
+}
+
+p {
+    color: #8A358F;
+    padding: 5px;
+}
+
+h5 {
+    color: white;
+    padding-top: 7px;
+}
+
+.gameName {
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.paragraph {
+    width: 350px;
+    height: 370px;
+    background-color: #EBD0B9;
+    margin: 0 0 10px 400px;
+}
+
+.total {
+    width: 150px;
+    height: 90px;
+    background-color: #EBD0B9;
+    margin-right: 10px;
+    font-size: 30px;
+    color: #8A358F;
+}
+
+.result {
+    width: 150px;
+    height: 90px;
+    background-color: #EBD0B9;
+    margin-left: 160px;
+    margin-top: -90px;
+    color: black;
+}
+
+.click {
+    width: 80px;
+    height: 80px;
+}
+
+
+/*Random generated number and Win/Losses*/
+
+.start {
+    height: 105px;
+    width: 300px;
+    display: inline-block;
+    margin: 0 0 0 415px;
+}
+
+
+/*Total and Total selected Cystals*/
+
+.score {
+    width: 180px;
+    height: 30px;
+    background-color: #EBD0B9;
+    margin: 0 0 10px 480px;
+}
+
+.addition {
+    width: 180px;
+    height: 90px;
+    background-color: #EBD0B9;
+    font-size: 30px;
+    color: white;
+    margin: 0 0 0 480px;
+}
+
+
+/*Sound player hidden*/
+
+.soundPlayer {
+    display: none;
+}

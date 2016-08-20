@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Final Fantasy Crystal Game</title>
+    
+    <!--Meta tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!--Link to Fonts
+    <link href='insert link to fonts' rel='stylesheet' type='text/css'>-->
+    
+    <!--Style sheet links-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!--Jquery-->
+    <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
+
+</head>
+
+<body>
+   <div class="container">
+    <header>
+        <h2 class="gameName text-cener">Final Fantasy 7 Crystals</h2>
+    </header>
+    <div class="paragraph text-center">
+    </div>
+    
+    <div class="start text-center">
+        <div class="total text-center"></div>
+        <div class="result text-center">
+            Wins:
+            <div id="wins"></div>
+            Losses:
+            <div id="losses"></div>
+        </div>
+    </div>
+    <div class="crystals text-center">
+        <img src="assets/images/crystal1.png" class="click" id="crystal1">
+        <img src="assets/images/crystal2.png" class="click" id="crystal2">
+        <img src="assets/images/crystal3.png" class="click" id="crystal3">
+        <img src="assets/images/crystal4.png" class="click" id="crystal4">
+    </div>
+    <div class="score text-center">
+        <h5>Total:</h5>
+    </div>
+    <div class="addition text-center"></div>
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+
+     <div class="soundPlayer">
+          <audio controls autoplay loop>
+               <source src="http://www.ffmages.com/ffvii/ost/disc-1/01-prelude.mp3" type="audio/mpeg">
+          </audio>
+     </div>
+    </div>
+</body>
+
+</html>
