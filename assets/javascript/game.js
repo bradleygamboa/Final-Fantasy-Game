@@ -42,6 +42,7 @@ var logic = function() {
 
 $('.total').append(total);
 $('.addition').append(addition);
+
 $(document).ready(function() {
     $('#crystal1').click(function() {
         addition = addition + crystal1;
